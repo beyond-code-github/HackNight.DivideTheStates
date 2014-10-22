@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackNight.DivideTheStatesCS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackNight.DivideTheStates.Engine", "HackNight.DivideTheStates.Engine\HackNight.DivideTheStates.Engine.csproj", "{9E5379E9-C5C6-423F-835C-6396210F3F61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackNight.DivideTheStates.Tests", "HackNight.DivideTheStates.Tests\HackNight.DivideTheStates.Tests.csproj", "{0BF4124B-45E9-485A-AF89-86534E84D2C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9E5379E9-C5C6-423F-835C-6396210F3F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E5379E9-C5C6-423F-835C-6396210F3F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E5379E9-C5C6-423F-835C-6396210F3F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BF4124B-45E9-485A-AF89-86534E84D2C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF4124B-45E9-485A-AF89-86534E84D2C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF4124B-45E9-485A-AF89-86534E84D2C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF4124B-45E9-485A-AF89-86534E84D2C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

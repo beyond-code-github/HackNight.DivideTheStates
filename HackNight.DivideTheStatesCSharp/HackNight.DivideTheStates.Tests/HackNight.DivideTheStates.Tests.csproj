@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>55a29c5d-364a-4ece-a63f-e1d5da522ac3</ProjectGuid>
+    <ProjectGuid>{0BF4124B-45E9-485A-AF89-86534E84D2C4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>HackNight.DivideTheStates.Tests</RootNamespace>
@@ -50,8 +50,14 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HackNight.DivideTheStates.Engine\HackNight.DivideTheStates.Engine.csproj">
+      <Project>{9E5379E9-C5C6-423F-835C-6396210F3F61}</Project>
+      <Name>HackNight.DivideTheStates.Engine</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

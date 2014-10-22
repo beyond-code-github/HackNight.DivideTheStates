@@ -5,7 +5,7 @@
 
     public class Engine
     {
-        public IDictionary<int, IEnumerable<int>> Divide(int buckets, IEnumerable<int> inputs)
+        public static IDictionary<int, List<int>> Divide(int buckets, IEnumerable<int> inputs)
         {
             throw new NotImplementedException();
         }
